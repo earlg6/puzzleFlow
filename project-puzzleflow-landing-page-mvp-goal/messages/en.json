@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "howItWorks": "How it works",
+    "benefits": "Benefits",
+    "faq": "FAQ",
+    "join": "Join Waitlist"
+  },
+  "hero": {
+    "headline": "The first puzzle subscription library in Romania",
+    "subheadline": "Get access to new puzzles every month without buying and storing them.",
+    "primary": "Join Waitlist",
+    "secondary": "Take Survey"
+  },
+  "problem": {
+    "eyebrow": "Problem",
+    "title": "Puzzle joy should not turn into storage clutter.",
+    "cards": [
+      {"title": "Buying puzzles is expensive"},
+      {"title": "Finished puzzles take space"},
+      {"title": "Most puzzles are assembled only once"}
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "A simple monthly flow.",
+    "steps": [
+      {"title": "Choose a puzzle", "text": "Pick your next puzzle from the collection."},
+      {"title": "Assemble it", "text": "Enjoy the process on your own or with family."},
+      {"title": "Return or exchange it", "text": "Send it back when you are done."},
+      {"title": "Get a new one", "text": "Continue with something fresh."}
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Benefits",
+    "title": "Built for puzzle lovers who want more variety.",
+    "items": [
+      {"title": "Save money", "text": "Try more puzzles without repeated purchases."},
+      {"title": "Save space", "text": "Avoid keeping boxes on shelves for years."},
+      {"title": "Discover new puzzles", "text": "Explore varied collections for different styles and levels."},
+      {"title": "Community driven", "text": "The service grows around member preferences."},
+      {"title": "Flexible subscription", "text": "The final model will be shaped with early users."},
+      {"title": "Large collection", "text": "Planned across themes, sizes, and difficulty levels."}
+    ]
+  },
+  "survey": {
+    "eyebrow": "Survey",
+    "title": "Help validate the idea in 30 seconds.",
+    "frequency": "How often do you assemble puzzles?",
+    "owned": "How many puzzles do you currently own?",
+    "interest": "Would you use a puzzle subscription?",
+    "submit": "Submit survey",
+    "success": "Thank you, your answers were recorded.",
+    "error": "We could not save your answers. Please try again.",
+    "options": {
+      "never": "Never",
+      "yearly": "Once per year",
+      "several": "Several times per year",
+      "monthly": "Monthly",
+      "zero": "0",
+      "oneFive": "1-5",
+      "sixTen": "6-10",
+      "tenPlus": "10+",
+      "yes": "Yes",
+      "maybe": "Maybe",
+      "no": "No"
+    }
+  },
+  "waitlist": {
+    "eyebrow": "Waitlist",
+    "title": "Be among the first to test PuzzleFlow.",
+    "email": "Email",
+    "city": "City",
+    "country": "Country",
+    "earlyAccess": "I want early access",
+    "submit": "Join Waitlist",
+    "success": "You are on the waitlist. We will email you when the test launches.",
+    "duplicate": "This email is already on the waitlist.",
+    "error": "We could not save your signup. Please try again.",
+    "emailError": "Enter a valid email address."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {"question": "What is PuzzleFlow?", "answer": "PuzzleFlow is a puzzle subscription library concept for Romania."},
+      {"question": "How much will it cost?", "answer": "Final pricing will be set after validating demand and user preferences."},
+      {"question": "When will it launch?", "answer": "The plan is to start with a limited test after enough people join the waitlist."},
+      {"question": "Can I exchange my own puzzles?", "answer": "We are considering a community component, including exchanges, if there is interest."}
+    ]
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "copyright": "© 2026 PuzzleFlow. All rights reserved."
+  }
+}

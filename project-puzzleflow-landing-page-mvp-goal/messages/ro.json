@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "howItWorks": "Cum funcționează",
+    "benefits": "Beneficii",
+    "faq": "FAQ",
+    "join": "Intră pe lista de așteptare"
+  },
+  "hero": {
+    "headline": "Prima bibliotecă de puzzle-uri prin abonament din România",
+    "subheadline": "Ai acces la puzzle-uri noi în fiecare lună, fără să le cumperi și să le depozitezi.",
+    "primary": "Intră pe lista de așteptare",
+    "secondary": "Completează sondajul"
+  },
+  "problem": {
+    "eyebrow": "Problema",
+    "title": "Pasiunea pentru puzzle-uri nu ar trebui să umple casa.",
+    "cards": [
+      {"title": "Puzzle-urile sunt scumpe"},
+      {"title": "Puzzle-urile terminate ocupă spațiu"},
+      {"title": "Majoritatea sunt asamblate o singură dată"}
+    ]
+  },
+  "how": {
+    "eyebrow": "Cum funcționează",
+    "title": "Un flux simplu pentru fiecare lună.",
+    "steps": [
+      {"title": "Alege un puzzle", "text": "Selectează următorul puzzle din colecție."},
+      {"title": "Asamblează-l", "text": "Bucură-te de proces, singur sau cu familia."},
+      {"title": "Returnează sau schimbă", "text": "Trimite-l înapoi când ai terminat."},
+      {"title": "Primește unul nou", "text": "Continuă cu un puzzle diferit."}
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Beneficii",
+    "title": "Creat pentru iubitorii de puzzle-uri care vor varietate.",
+    "items": [
+      {"title": "Economisești bani", "text": "Testezi mai multe puzzle-uri fără cumpărături repetate."},
+      {"title": "Economisești spațiu", "text": "Nu mai păstrezi cutii pe rafturi ani întregi."},
+      {"title": "Descoperi puzzle-uri noi", "text": "Colecții variate pentru niveluri și stiluri diferite."},
+      {"title": "Comunitate activă", "text": "Serviciul crește în jurul preferințelor membrilor."},
+      {"title": "Abonament flexibil", "text": "Modelul final va fi validat împreună cu primii utilizatori."},
+      {"title": "Colecție mare", "text": "Planificată pentru teme, dimensiuni și dificultăți diverse."}
+    ]
+  },
+  "survey": {
+    "eyebrow": "Sondaj",
+    "title": "Ajută-ne să validăm ideea în 30 de secunde.",
+    "frequency": "Cât de des asamblezi puzzle-uri?",
+    "owned": "Câte puzzle-uri ai în prezent?",
+    "interest": "Ai folosi un abonament pentru puzzle-uri?",
+    "submit": "Trimite răspunsurile",
+    "success": "Mulțumim, răspunsurile tale au fost înregistrate.",
+    "error": "Nu am putut salva răspunsurile. Încearcă din nou.",
+    "options": {
+      "never": "Niciodată",
+      "yearly": "O dată pe an",
+      "several": "De câteva ori pe an",
+      "monthly": "Lunar",
+      "zero": "0",
+      "oneFive": "1-5",
+      "sixTen": "6-10",
+      "tenPlus": "10+",
+      "yes": "Da",
+      "maybe": "Poate",
+      "no": "Nu"
+    }
+  },
+  "waitlist": {
+    "eyebrow": "Listă de așteptare",
+    "title": "Fii printre primii care testează PuzzleFlow.",
+    "email": "Email",
+    "city": "Oraș",
+    "country": "Țară",
+    "earlyAccess": "Vreau acces timpuriu",
+    "submit": "Intră pe listă",
+    "success": "Ești pe lista de așteptare. Îți vom scrie când lansăm testul.",
+    "duplicate": "Acest email este deja pe lista de așteptare.",
+    "error": "Nu am putut salva înscrierea. Încearcă din nou.",
+    "emailError": "Introdu o adresă de email validă."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Întrebări frecvente",
+    "items": [
+      {"question": "Ce este PuzzleFlow?", "answer": "PuzzleFlow este o idee de bibliotecă de puzzle-uri prin abonament pentru România."},
+      {"question": "Cât va costa?", "answer": "Prețul final va fi stabilit după validarea cererii și preferințelor utilizatorilor."},
+      {"question": "Când se lansează?", "answer": "Planul este să pornim cu un test limitat după ce strângem suficiente înscrieri."},
+      {"question": "Pot schimba propriile puzzle-uri?", "answer": "Luăm în calcul o componentă de comunitate, inclusiv schimburi, dacă există interes."}
+    ]
+  },
+  "footer": {
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni",
+    "copyright": "© 2026 PuzzleFlow. Toate drepturile rezervate."
+  }
+}
