@@ -1,4 +1,3 @@
-import nextVitals from 'eslint-config-next/core-web-vitals.js';
-import nextTs from 'eslint-config-next/typescript.js';
+import nextVitals from 'eslint-config-next/core-web-vitals.js'
 
-export default [...nextVitals, ...nextTs];
+export default nextVitals

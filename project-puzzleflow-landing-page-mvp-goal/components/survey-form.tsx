@@ -39,18 +39,20 @@ export function SurveyForm() {
 
   async function onSubmit(values: SurveyValues) {
     setStatus('idle');
-    const supabase = getSupabaseBrowserClient();
+    const supabase = getSupabaseBrowserClient() as any;
 
     if (!supabase) {
       setStatus('error');
       return;
     }
 
-    const {error} = await supabase.from('survey_responses').insert({
-      frequency: values.frequency,
-      owned_puzzles: values.ownedPuzzles,
-      subscription_interest: values.subscriptionInterest
-    });
+    const {error} = await supabase.from('survey_responses').insert([
+  {
+    frequency: values.frequency,
+    owned_puzzles: values.ownedPuzzles,
+    subscription_interest: values.subscriptionInterest
+  }
+]);
 
     if (error) {
       setStatus('error');

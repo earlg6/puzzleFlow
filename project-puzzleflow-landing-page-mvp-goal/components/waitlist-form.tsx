@@ -60,19 +60,21 @@ export function WaitlistForm() {
 
   async function onSubmit(values: WaitlistValues) {
     setStatus('idle');
-    const supabase = getSupabaseBrowserClient();
+    const supabase = getSupabaseBrowserClient() as any;
 
     if (!supabase) {
       setStatus('error');
       return;
     }
 
-    const {error} = await supabase.from('waitlist').insert({
-      email: values.email.toLowerCase(),
-      city: values.city || null,
-      country: values.country || null,
-      early_access: values.earlyAccess
-    });
+    const {error} = await supabase.from('waitlist').insert([
+  {
+    email: values.email.toLowerCase(),
+    city: values.city || null,
+    country: values.country || null,
+    early_access: values.earlyAccess
+  }
+]);
 
     if (error?.code === '23505') {
       setStatus('duplicate');
