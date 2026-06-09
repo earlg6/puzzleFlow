@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import {useLocale} from 'next-intl';
 import {usePathname} from 'next/navigation';
-import {defaultLocale, localeLabels, locales, type Locale} from '@/i18n/config';
+import {localeLabels, locales, type Locale} from '@/i18n/config';
 import {trackEvent} from '@/lib/analytics';
 
 function localizePath(pathname: string, nextLocale: Locale) {
@@ -12,11 +12,11 @@ function localizePath(pathname: string, nextLocale: Locale) {
   const hasLocale = locales.includes(first as Locale);
   const rest = hasLocale ? segments.slice(1) : segments;
 
-  if (nextLocale === defaultLocale) {
-    return `/${rest.join('/')}` || '/';
-  }
-
   return `/${[nextLocale, ...rest].join('/')}`;
+}
+
+function rememberLocale(nextLocale: Locale) {
+  document.cookie = `NEXT_LOCALE=${nextLocale}; path=/; max-age=31536000; SameSite=Lax`;
 }
 
 export function LanguageSwitcher() {
@@ -29,7 +29,10 @@ export function LanguageSwitcher() {
         <Link
           key={nextLocale}
           href={localizePath(pathname, nextLocale)}
-          onClick={() => trackEvent('language_change', {from: locale, to: nextLocale})}
+          onClick={() => {
+            rememberLocale(nextLocale);
+            trackEvent('language_change', {from: locale, to: nextLocale});
+          }}
           className={`rounded-full px-2.5 py-1.5 transition ${
             locale === nextLocale ? 'bg-gray-900 text-white' : 'hover:bg-gray-100'
           }`}
